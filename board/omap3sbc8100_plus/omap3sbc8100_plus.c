@@ -793,8 +793,8 @@ void per_clocks_enable(void)
 	MUX_VAL(CP(GPMC_nCS3),      (IDIS | PTU | EN  | M0)) /*GPMC_nCS3*/\
 	MUX_VAL(CP(GPMC_nCS4),      (IDIS | PTU | EN  | M0)) /*GPMC_nCS4*/\
 	MUX_VAL(CP(GPMC_nCS5),      (IDIS | PTD | DIS | M0)) /*GPMC_nCS5*/\
-	MUX_VAL(CP(GPMC_nCS6),      (IEN  | PTD | DIS | M1)) /*GPMC_nCS6*/\
-	MUX_VAL(CP(GPMC_nCS7),      (IEN  | PTU | EN  | M1)) /*GPMC_nCS7*/\
+	MUX_VAL(CP(GPMC_nCS6),      (IDIS | PTD | DIS | M0)) /*GPMC_nCS6*/\
+	MUX_VAL(CP(GPMC_nCS7),      (IDIS | PTD | DIS | M0)) /*GPMC_nCS7*/\
 	MUX_VAL(CP(GPMC_CLK),       (IDIS | PTD | DIS | M0)) /*GPMC_CLK*/\
 	MUX_VAL(CP(GPMC_nADV_ALE),  (IDIS | PTD | DIS | M0)) /*GPMC_nADV_ALE*/\
 	MUX_VAL(CP(GPMC_nOE),       (IDIS | PTD | DIS | M0)) /*GPMC_nOE*/\
